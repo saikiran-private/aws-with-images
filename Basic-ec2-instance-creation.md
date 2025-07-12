@@ -1,6 +1,6 @@
 # Basic EC2 Instance Creation Guide
 
-This repository contains a simplified guide for creating AWS EC2 instances using default settings with step-by-step screenshots.
+This file contains a simplified guide for creating AWS EC2 instances using default settings with step-by-step screenshots.
 
 ## Overview
 
@@ -12,16 +12,23 @@ The guide follows a streamlined approach for basic EC2 instance creation, focusi
 flowchart TD
     A[Start: AWS Console Login] --> B[Navigate to EC2 Dashboard]
     B --> C[Click Launch Instance]
-    C --> D[Choose AMI<br/>📸 Screenshot: ami-selection.png<br/>🔑 Core Concept]
-    D --> E[Choose Instance Type<br/>📸 Screenshot: instance-type.png<br/>🔑 Core Concept]
-    E --> F[Configure Instance<br/>Use Default Settings<br/>📝 Document settings only]
-    F --> G[Add Storage<br/>Use Default Settings<br/>📝 Document settings only]
-    G --> H[Configure Security Group<br/>📸 Screenshot: security-group.png<br/>🔑 Critical for Security]
-    H --> I[Review and Launch<br/>📝 Document key points only]
-    I --> J[Create Key Pair<br/>📸 Screenshot: create-keypair.png<br/>🔑 Essential for SSH]
-    J --> K[Download Key Pair<br/>📸 Screenshot: download-keypair.png<br/>🔑 Save for SSH Access]
-    K --> L[Instance Running<br/>📸 Screenshot: running-instance.png<br/>🔑 Final State Verification]
-    L --> M[Connect to Instance<br/>📝 Document connection methods]
+    C --> D[Choose AMI]
+    D --> E[Choose Instance Type]
+    E --> F[Configure Instance<br/>Use Default Settings]
+    F --> G[Add Storage<br/>Use Default Settings]
+    G --> H[Configure Security Group]
+    H --> I[Review and Launch]
+    I --> J[Create Key Pair]
+    J --> K[Download Key Pair]
+    K --> L[Instance Running]
+    L --> M[Connect to Instance]
+    
+    D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/ami-selection.png", h: 150, w: 200, pos: "b"}
+    E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/instance-type.png", h: 150, w: 200, pos: "b"}
+    H@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/security-group.png", h: 150, w: 200, pos: "b"}
+    J@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/create-keypair.png", h: 150, w: 200, pos: "b"}
+    K@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/download-keypair.png", h: 150, w: 200, pos: "b"}
+    L@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/running-instance.png", h: 150, w: 200, pos: "b"}
     
     style A fill:#e1f5fe
     style L fill:#c8e6c9
@@ -32,35 +39,6 @@ flowchart TD
     style J fill:#c8e6c9
     style K fill:#c8e6c9
 ```
-
-## Critical Screenshots (Future-Proof)
-
-### 🔑 Essential Screenshots - ALL COMPLETE! ✅
-1. **`ami-selection.png`** ✅ - AMI selection (core concept, rarely changes)
-2. **`instance-type.png`** ✅ - Instance type selection (fundamental sizing concept)
-3. **`security-group.png`** ✅ - Security group configuration (critical for security)
-4. **`create-keypair.png`** ✅ - Key pair creation (essential SSH concept)
-5. **`running-instance.png`** ✅ - Final running state (verification step)
-
-### 🎯 Bonus Screenshot:
-6. **`download-keypair.png`** ✅ - Key pair download (important for SSH access)
-
-### 📝 Document Instead of Screenshot:
-- **Instance Configuration** - List default settings in text
-- **Storage Configuration** - Document default EBS settings  
-- **Review Screen** - Summarize key points to verify
-- **Connection Methods** - List SSH, EC2 Instance Connect options
-
-## Why These Screenshots Matter
-
-| Screenshot | Why It's Future-Proof | Core Learning |
-|------------|----------------------|---------------|
-| AMI Selection | Fundamental concept of OS selection | Understanding different OS options |
-| Instance Type | Core sizing concept (t2.micro, etc.) | Cost and performance implications |
-| Security Group | Critical security concept | Network access control |
-| Key Pair Creation | Essential for SSH access | Authentication method |
-| Key Pair Download | Securing SSH credentials | File management for access |
-| Running Instance | Final verification step | Confirming successful deployment |
 
 ## Basic Process Flow
 
@@ -82,12 +60,3 @@ flowchart TD
 - AWS account with EC2 permissions
 - Basic understanding of cloud computing
 - SSH client for connection
-
-## Important Notes
-
-- **Complete Coverage**: All essential screenshots captured! 🎉
-- Focus on core concepts rather than UI details
-- Screenshots capture fundamental AWS concepts
-- UI may change, but core concepts remain stable
-- Always terminate instances when not needed to avoid charges
-- Free tier eligible with t2.micro instance type
