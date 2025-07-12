@@ -19,7 +19,7 @@ flowchart TD
     G -----> H[Configure Security Group]
     H -----> I[Review and Launch]
     I -----> J[Instance Running]
-    J -----> K[Connect to Instance in your terminal using this command "ssh -i keypair.pem username@public_ip"]
+    J -----> K[Connect to Instance in your terminal using this command `ssh -i keypair.pem username@public_ip`]
     
     D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/ami-selection.png", h: 430, w: 1270, pos: "t"}
     E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/instance-type.png", h: 446, w: 1544, pos: "t"}
