@@ -21,12 +21,12 @@ flowchart TD
     I -----> J[Instance Running]
     J -----> K[Connect to Instance in your terminal using this command **ssh -i keypair.pem username@public_ip**]
     
-    D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/ami-selection.png", h: 430, w: 1270, pos: "t"}
-    E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/instance-type.png", h: 446, w: 1544, pos: "t"}
-    F@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/create-keypair.png", h: 510, w: 1646, pos: "t"}
-    G@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/download-keypair.png", h: 1198, w: 1240, pos: "t"}
-    H@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/security-group.png", h: 892, w: 1490, pos: "t"}
-    J@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/running-instance.png", h: 602, w: 2748, pos: "t"}
+    D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/Class3-EC2/images/ami-selection.png", h: 430, w: 1270, pos: "t"}
+    E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/Class3-EC2/images/instance-type.png", h: 446, w: 1544, pos: "t"}
+    F@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/Class3-EC2/images/create-keypair.png", h: 510, w: 1646, pos: "t"}
+    G@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/Class3-EC2/images/download-keypair.png", h: 1198, w: 1240, pos: "t"}
+    H@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/Class3-EC2/images/security-group.png", h: 892, w: 1490, pos: "t"}
+    J@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/Class3-EC2/images/running-instance.png", h: 602, w: 2748, pos: "t"}
     
     style A fill:#e1f5fe,font-size:30px
     style D fill:#c8e6c9,font-size:30px
