@@ -10,18 +10,18 @@ The guide follows a streamlined approach for basic EC2 instance creation, focusi
 
 ```mermaid
 flowchart TD
-    A[Start: AWS Console Login] =====>> B[Navigate to EC2 Dashboard]
-    B =====>> C[Click Launch Instance]
-    C =====>> D[Choose AMI]
-    D =====>> E[Choose Instance Type]
-    E =====>> F[Configure Instance<br/>Use Default Settings]
-    F =====>> G[Add Storage<br/>Use Default Settings]
-    G =====>> H[Configure Security Group]
-    H =====>> I[Review and Launch]
-    I =====>> J[Create Key Pair]
-    J =====>> K[Download Key Pair]
-    K =====>> L[Instance Running]
-    L =====>> M[Connect to Instance]
+    A[Start: AWS Console Login] -----> B[Navigate to EC2 Dashboard]
+    B -----> C[Click Launch Instance]
+    C -----> D[Choose AMI]
+    D -----> E[Choose Instance Type]
+    E -----> F[Configure Instance<br/>Use Default Settings]
+    F -----> G[Add Storage<br/>Use Default Settings]
+    G -----> H[Configure Security Group]
+    H -----> I[Review and Launch]
+    I -----> J[Create Key Pair]
+    J -----> K[Download Key Pair]
+    K -----> L[Instance Running]
+    L -----> M[Connect to Instance]
     
     D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/ami-selection.png", h: 430, w: 1270, pos: "t"}
     E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/instance-type.png", h: 446, w: 1544, pos: "t"}
