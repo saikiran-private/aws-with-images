@@ -43,6 +43,21 @@ flowchart TD
     style F font-size:30px
     style G font-size:30px
     style I font-size:30px
+    
+    %% Arrow styling - thick arrows
+    linkStyle default stroke-width:10px
+    linkStyle 0 stroke-width:10px
+    linkStyle 1 stroke-width:10px
+    linkStyle 2 stroke-width:10px
+    linkStyle 3 stroke-width:10px
+    linkStyle 4 stroke-width:10px
+    linkStyle 5 stroke-width:10px
+    linkStyle 6 stroke-width:10px
+    linkStyle 7 stroke-width:10px
+    linkStyle 8 stroke-width:10px
+    linkStyle 9 stroke-width:10px
+    linkStyle 10 stroke-width:10px
+    linkStyle 11 stroke-width:10px
 ```
 
 ## Basic Process Flow
