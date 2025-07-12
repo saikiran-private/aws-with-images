@@ -30,19 +30,19 @@ flowchart TD
     K@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/download-keypair.png", h: 1198, w: 1240, pos: "t"}
     L@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/running-instance.png", h: 602, w: 2748, pos: "t"}
     
-    style A fill:#e1f5fe,font-size:24px
-    style L fill:#c8e6c9,font-size:24px
-    style M fill:#c8e6c9,font-size:24px
-    style D fill:#c8e6c9,font-size:24px
-    style E fill:#c8e6c9,font-size:24px
-    style H fill:#c8e6c9,font-size:24px
-    style J fill:#c8e6c9,font-size:24px
-    style K fill:#c8e6c9,font-size:24px
-    style B font-size:24px
-    style C font-size:24px
-    style F font-size:24px
-    style G font-size:24px
-    style I font-size:24px
+    style A fill:#e1f5fe,font-size:30px
+    style L fill:#c8e6c9,font-size:30px
+    style M fill:#c8e6c9,font-size:30px
+    style D fill:#c8e6c9,font-size:30px
+    style E fill:#c8e6c9,font-size:30px
+    style H fill:#c8e6c9,font-size:30px
+    style J fill:#c8e6c9,font-size:30px
+    style K fill:#c8e6c9,font-size:30px
+    style B font-size:30px
+    style C font-size:30px
+    style F font-size:30px
+    style G font-size:30px
+    style I font-size:30px
 ```
 
 ## Basic Process Flow
