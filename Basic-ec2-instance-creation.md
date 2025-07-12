@@ -23,12 +23,12 @@ flowchart TD
     K --> L[Instance Running]
     L --> M[Connect to Instance]
     
-    D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/ami-selection.png", h: 150, w: 200, pos: "b"}
-    E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/instance-type.png", h: 150, w: 200, pos: "b"}
-    H@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/security-group.png", h: 150, w: 200, pos: "b"}
-    J@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/create-keypair.png", h: 150, w: 200, pos: "b"}
-    K@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/download-keypair.png", h: 150, w: 200, pos: "b"}
-    L@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/running-instance.png", h: 150, w: 200, pos: "b"}
+    D@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/ami-selection.png", h: 300, w: 400, pos: "b"}
+    E@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/instance-type.png", h: 300, w: 400, pos: "b"}
+    H@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/security-group.png", h: 300, w: 400, pos: "b"}
+    J@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/create-keypair.png", h: 300, w: 400, pos: "b"}
+    K@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/download-keypair.png", h: 300, w: 400, pos: "b"}
+    L@{ img: "https://raw.githubusercontent.com/saikiran-private/aws-with-images/main/images/running-instance.png", h: 300, w: 400, pos: "b"}
     
     style A fill:#e1f5fe
     style L fill:#c8e6c9
